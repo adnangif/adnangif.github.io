@@ -19,8 +19,9 @@
   },
   "education": [
     {
-      "institution": "Khulna University -- BSc in Computer Science and Engineering Jan 2022 -- Dec 2025",
-      "degree": "",
+      "institution": "Khulna University",
+      "duration": "Jan 2022 - Dec 2025",
+      "degree": "BSc in Computer Science and Engineering",
       "items": [
         "CGPA: 3.70",
         "Relevant Courses: Data Structures, Algorithms, Database Systems, Software Engineering"

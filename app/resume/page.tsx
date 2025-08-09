@@ -20,13 +20,19 @@ export default function ResumePage() {
         </div>
         <div>
           <h3 className="text-lg font-semibold">Education</h3>
-          <ul className="mt-2 list-disc pl-6">
-            {resume.education.map((e, idx) => (
-              <li key={idx}>
-                <span className="font-medium">{e.institution}</span> — {e.degree}
+          {resume.education.map((e, idx) => (
+            <ul key={idx} className="mt-2 list-disc pl-6 text-sm text-muted-foreground">
+              <li>
+                <span className="font-medium text-foreground">{e.degree},{e.institution}</span>
               </li>
-            ))}
-          </ul>
+              <li>
+                <span className="">{e.duration}</span>
+              </li>
+              {e.items?.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          ))}
         </div>
         <div>
           <h3 className="text-lg font-semibold">Experience</h3>

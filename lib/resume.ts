@@ -9,7 +9,7 @@ export function loadResume() {
     const content = readFileSync(path, "utf8");
     return JSON.parse(content) as {
       profile: { name: string; email?: string; links: { url: string; label: string }[] };
-      education: Array<{ institution: string; degree: string; items?: string[] }>;
+      education: Array<{ institution: string; duration: string; degree: string; items?: string[] }>;
       experience: Array<{ title: string; company: string; location?: string; start?: string; end?: string; items: string[] }>;
       projects: Array<{ name: string; url?: string; items: string[] }>;
       competitiveProgramming: string[];
