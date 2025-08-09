@@ -19,7 +19,7 @@ Legend: [P0] critical, [P1] important, [P2] nice-to-have. We follow these tasks 
   - Header (brand + nav), Footer (links, socials)
 - [x] **Decide and scaffold routes** (placeholders conforming to `rules.md`)
   - `/`, `/projects`, `/projects/[slug]`, `/experience`, `/skills`, `/resume`, `/contact`
-- [ ] **Resume ingestion from LaTeX**
+- [x] **Resume ingestion from LaTeX**
   - Add `muhammadfahim.tex` to repo (if not already)
   - Create script `scripts/parse-resume.ts` to convert LaTeX → `data/resume.json`
   - Wire server utilities to read `data/resume.json`
