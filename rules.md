@@ -90,6 +90,12 @@ These rules define the tech stack, site structure, conventions, and quality bars
 - Use GitHub Actions to build, export, and deploy Pages.
 - On `main` push: `npm ci`, `npm run build`, `next export`, touch `.nojekyll`, upload artifact, deploy.
 
+### Live Browser Checks
+- Use the built-in browser tooling to validate pages after major changes:
+  - Start the dev server locally and open the site in the browser tool for smoke tests.
+  - Verify navigation, dark mode toggle, focus states, and critical flows.
+  - Capture snapshots/screenshots when relevant and fix any console errors before merging.
+
 ### Change Management
 - Any change to stack, routes, or design tokens must be reflected here first, then implemented.
 
