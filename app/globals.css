@@ -119,3 +119,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Prevent horizontal layout shift when vertical scrollbar appears/disappears */
+html {
+  scrollbar-gutter: stable;
+}
