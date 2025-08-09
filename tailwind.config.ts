@@ -5,7 +5,7 @@ import type { Config } from "tailwindcss";
 // but this file remains useful for plugin registration and tool discovery.
 
 const config: Config = {
-  darkMode: ["class"],
+  darkMode: "class",
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
