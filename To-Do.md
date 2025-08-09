@@ -23,7 +23,7 @@ Legend: [P0] critical, [P1] important, [P2] nice-to-have. We follow these tasks 
   - Add `muhammadfahim.tex` to repo (if not already)
   - Create script `scripts/parse-resume.ts` to convert LaTeX → `data/resume.json`
   - Wire server utilities to read `data/resume.json`
-- [ ] **Home page (v1)**
+- [x] **Home page (v1)**
   - Hero with name, role, CTA; featured projects; skills; contact CTA
 - [x] **CI/CD: Deploy to GitHub Pages**
   - Add GitHub Actions workflow to build, `next export`, upload `out/`, and deploy
