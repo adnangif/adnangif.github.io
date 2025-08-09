@@ -121,3 +121,8 @@ These rules define the tech stack, site structure, conventions, and quality bars
 ### Change Management
 
 - Any change to stack, routes, or design tokens must be reflected here first, then implemented.
+
+### Task Tracking
+
+- After completing a task in `To-Do.md`, immediately mark it as completed (`[x]`) in place.
+- Keep task statuses accurate before committing related changes.
