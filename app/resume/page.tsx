@@ -70,8 +70,8 @@ export default function ResumePage() {
         </div>
       </section>
       <div className="mt-8">
-        <a className="underline" href="/resume.pdf" target="_blank" rel="noreferrer">
-          Download PDF
+        <a className="underline" href="/muhammadfahim.pdf" target="_blank" rel="noreferrer">
+          Open PDF
         </a>
       </div>
     </main>
