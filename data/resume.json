@@ -1,0 +1,96 @@
+{
+  "profile": {
+    "name": "Muhammad Fahim",
+    "links": [
+      {
+        "url": "mailto:muhammadfahim010@gmail.com",
+        "label": "muhammadfahim010@gmail.com"
+      },
+      {
+        "url": "https://linkedin.com/in/adnangif/",
+        "label": "linkedin.com/in/adnangif"
+      },
+      {
+        "url": "https://github.com/adnangif",
+        "label": "github.com/adnangif"
+      }
+    ],
+    "email": "muhammadfahim010@gmail.com"
+  },
+  "education": [
+    {
+      "institution": "Khulna University -- BSc in Computer Science and Engineering Jan 2022 -- Dec 2025",
+      "degree": "",
+      "items": [
+        "CGPA: 3.70",
+        "Relevant Courses: Data Structures, Algorithms, Database Systems, Software Engineering"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "chainoptimizer.com",
+      "location": "Dhaka",
+      "start": "Jul 2025 -- Present",
+      "items": [
+        "Developed core APIs and frontend UI using .NET Core and React, incorporating insights from 25+ product feedback sessions and market research to build a user-driven platform",
+        "Deployed Docker containers and optimized Ubuntu servers by composing complex containerized services, resulting in a resilient, auto-respawning microservice-based architecture",
+        "Authored unit tests for backend services using xUnit, and developed integration and end-to-end tests with Cypress, ensuring thoroughly tested features and a robust, low-bug platform"
+      ]
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "chainoptimizer.com",
+      "location": "Dhaka",
+      "start": "Jan 2025 -- Jun 2025",
+      "items": [
+        "Trained under an experienced Microsoft AI engineer, developing strong AI skills and practical expertise",
+        "Collaborated in developing APIs and backend features, contributing to improved system functionality",
+        "Helped with UI tasks and enhancements to improve user experience"
+      ]
+    },
+    {
+      "title": "Software Engineer (Contract)",
+      "company": "v2gsol.com",
+      "location": "Johannesburg, South Africa",
+      "start": "Apr 2024 -- Aug 2024",
+      "items": [
+        "Contributed to building real-time data visibility and visualization using Django Channels and Google Charts, enabling Station Managers to monitor 7+ pumps simultaneously and ensure optimal operation",
+        "Implemented an employee shift scheduling feature using Django for APIs and React for the UI, enabling effective scheduling and tracking of shifts for 50+ pump attendants via the dashboard",
+        "Optimized database queries and introduced query caching, reducing latency by over 10 seconds"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Jiggasha",
+      "url": "https://jiggasha.xyz",
+      "items": [
+        "Created an LLM-powered conversational app using Django and React, with contextual prompt engineering suggestions to enhance user queries",
+        "Built a context-aware suggestion system with external LLM APIs, improving prompt quality and reducing prompt engineering time by more than 50\\%",
+        "Successfully raised pre-seed investment of more than 64k from \\href{https://uihp.org}{uihp.org} to boost market growth"
+      ]
+    }
+  ],
+  "competitiveProgramming": [
+    "ACM ICPC Asia Dhaka Regional 2023: 136th out of more than 225 teams",
+    "BUET IUPC 2023: 41st out of more than 100 teams",
+    "JU NCPC 2023: 91st out of 200 teams",
+    "Problems: Solved 1000+ problems across algorithms, data structures, and math on various online judges"
+  ],
+  "skills": {
+    "frameworks": [
+      "} ASP.NET Core",
+      "Django",
+      "React",
+      "Next.js"
+    ],
+    "tools": [
+      "} Git",
+      "Docker",
+      "Ubuntu",
+      "Linux"
+    ]
+  }
+}
