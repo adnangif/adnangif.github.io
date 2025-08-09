@@ -20,6 +20,8 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - run: npm run lint
+      - run: npm run build --if-present
       - run: npm run build
       - run: npx next export
       - run: mkdir -p out && touch out/.nojekyll
